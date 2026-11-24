@@ -1,0 +1,1 @@
+%{F#ff0000}red%{F-} %{B#80123456}bg%{B-} %{u#0f0}%{+u}ul%{-u} %{T2}font%{T-} %{O10px}%{O-3pt} %{A1:notify-send hi:}click%{A} %{A3:a\:b:}%{A}

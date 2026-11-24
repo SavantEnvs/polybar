@@ -1,0 +1,1 @@
+%{l}left%{c}center%{r}right%{R}%{PR}%{P}%{!u}%{!o}%{o#abc}%{+o}x%{-o}%{A4:up:}%{A5:down:}scroll%{A}%{A}

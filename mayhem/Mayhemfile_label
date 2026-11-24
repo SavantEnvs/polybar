@@ -1,0 +1,9 @@
+project: savantenvs/polybar
+target: label
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/label/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_label
+    libfuzzer: true
+    timeout: 5

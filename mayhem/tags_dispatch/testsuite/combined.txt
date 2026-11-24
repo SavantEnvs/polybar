@@ -1,0 +1,1 @@
+%{F#f00 B#0f0 T1}combined%{F- B- T-}%{A1:echo 1: A2:echo 2:}nested%{A2}%{A1}

@@ -1,0 +1,9 @@
+project: savantenvs/polybar
+target: actions
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/actions/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_actions
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,9 @@
+project: savantenvs/polybar
+target: config_parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/config_parser/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_config_parser
+    libfuzzer: true
+    timeout: 5

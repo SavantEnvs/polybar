@@ -1,0 +1,1 @@
+%{l}%{A1:a:}left%{A}%{c}%{O20}%{A3:b:}mid%{A3}%{r}%{Pt}tray%{P}right
